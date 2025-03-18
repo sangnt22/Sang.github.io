@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0D2C55;
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .content {
+            max-width: 50%;
+        }
+        h1 {
+            font-size: 3rem;
+            color: white;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #FFD700;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        .btn {
+            margin-top: 20px;
+            display: inline-block;
+            background-color: #2E9E82;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .profile-img {
+            border: 5px solid #FFD700;
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #0B1F3A;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 1.2rem;
+        }
+        .nav a:hover {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h2 style="color: #FFD700;">Sang</h2>
+        <nav class="nav">
+            <a href="#about">Giới thiệu</a>
+            <a href="#projects">Dự án</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <div class="content">
+            <h1>Xin chào, Tôi là <span class="highlight">Sang</span></h1>
+            <h2 class="highlight">Frontend Developer & UI Designer</h2>
+            <p>Chuyên gia thiết kế trải nghiệm người dùng và phát triển web hiện đại.</p>
+            <a href="#contact" class="btn">Liên hệ với tôi</a>
+        </div>
+        <img src="Sang.jpg" alt="Ảnh cá nhân" class="profile-img">
+    </section>
+</body>
+</html>
